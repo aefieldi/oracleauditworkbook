@@ -114,6 +114,13 @@ strong{font-weight:600;color:var(--txt)}
 /* your turn */
 .turn{border:1px solid rgba(232,200,120,.4);border-radius:20px;padding:18px 20px;background:linear-gradient(180deg,rgba(232,200,120,.08),rgba(0,0,0,.18))}
 .turn .tt{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.res{margin-top:14px;border-top:1px dashed var(--line2);padding-top:12px}
+.res .rk{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--mint);margin:0 0 8px}
+.res .rl{display:flex;flex-wrap:wrap;gap:6px}
+.res a{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:500;color:var(--txt);border:1px solid rgba(127,224,184,.35);background:rgba(127,224,184,.07);border-radius:99px;padding:5px 11px;line-height:1.25;max-width:100%}
+.res a:hover{border-color:var(--mint);color:var(--mint)}
+.res a small{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+.res p{margin:8px 0 0;color:var(--muted);font-size:12px;line-height:1.45}
 .fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
 .field{min-width:0}
 .field.wide{grid-column:1/-1}
@@ -254,28 +261,27 @@ ul.ck input:checked+label b{color:var(--muted);text-decoration:line-through;text
 <header class="hero">
   <p class="who">Workbook · Oracle Connections</p>
   <h1>The Audit Method<br><span class="serif">in action</span></h1>
-  <p class="how">Follow along with the training using this workbook to map out your paid session offer, your 90-day container, and your first week of content to promote it. Everything you type here is saved in your browser.</p>
+  <p class="how">Use this workbook during the live training. Map out your paid session offer, your 90-day container, and your first week of content to promote it. Everything you type here is saved in your browser.</p>
   <p class="by">with Amanda Fielding-Smith</p>
-  <p class="ask">Post any questions about your offer and how to present it in the Oracle Connections community and tag me. I'd love to help you shape it.</p>
-  <p class="vid-lbl">Watch the masterclass</p>
-  <a class="vid" href="https://youtu.be/bQLFL60CjNA" target="_blank" rel="noopener"><span class="poster" aria-hidden="true"><small>The training</small><b>Audit Method</b><i>in action</i></span><span class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><span class="vid-meta"><b>Audit Method in Action Training: Grow Recurring Revenue</b><small>YouTube · opens in a new tab</small></span></a>
+  <p class="ask">Join <a href="https://www.skool.com/amanda" target="_blank" rel="noopener">Spiritual Business Skool</a> to work through the Audit Method, share your draft audit offer for feedback, and bring your questions. Premium members can submit questions for me through the Q&amp;A spot.</p>
   <div class="btnrow">
-    <a class="btn" href="https://docs.google.com/presentation/d/1lf5EtJI-g3yUJvcwFQ6q04rPIQfUaacU/edit?usp=sharing&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener">Open the slides</a>
+    <!-- Slides: the Oracle Connections deck is a local .pptx for now. Add its share URL as a button here once it is uploaded. -->
+    <a class="btn" href="https://aefieldi.github.io/auditchecklist/" target="_blank" rel="noopener">Audit Method Roadmap</a>
     <a class="btn o" href="https://aefieldi.github.io/30dayauditpromoplan/" target="_blank" rel="noopener">30-day promo guide</a>
   </div>
   <div class="prog" aria-label="Your progress">Your build<div class="bar"><i id="heroBar"></i></div><span id="heroUnit">0 of 0 done</span></div>
   <aside class="join" aria-label="Join Spiritual Business Skool">
-  <p class="jk">Keep building with me</p>
-  <h3>Join Spiritual Business Skool with a 7-day free trial</h3>
-  <p>Premium gives you the complete Audit Method: the templates, the trainings and the slides from this session, plus the 24/7 Spiritual Biz Coach AI.</p>
-  <p><b>Join Premium annual by November 30, 2026</b> and choose your bonus: a 1:1 Strategy Audit with me, or a 30-day content plan on the platform of your choice.</p>
-  <div class="jrow"><a class="btn" href="https://www.skool.com/amanda/plans" target="_blank" rel="noopener">Start the free trial</a><small>skool.com/amanda/plans</small></div>
+  <p class="jk">Black Friday · keep building with me</p>
+  <h3>Join Spiritual Business Skool Premium Annual: $597 for 12 months</h3>
+  <p>The complete Audit Method classroom, the DM Playbook and AI DM Assistant, the Premium Skills Treasure Chest, the 24/7 Spiritual Biz Coach AI and the Q&amp;A spot, plus everything in Standard.</p>
+  <p><b>Join by Monday, November 30, 2026 (11:59 p.m. ET)</b> and choose one bonus: a 1:1 Strategy Audit with me, or a personalized 30-day content plan on the platform you choose.</p>
+  <div class="jrow"><a class="btn" href="https://www.skool.com/amanda/plans" target="_blank" rel="noopener">Join Premium Annual</a><small>or $99/month · free 7-day trial</small></div>
 </aside>
 </header>
 
 <!-- 1 ─────────────────────────────────────────────── -->
 <section class="card" id="c1">
-  <div class="chead"><span class="n">1</span><h2>Shape your paid session</h2><a class="watch" href="https://youtu.be/bQLFL60CjNA?t=946" target="_blank" rel="noopener">Watch this part</a></div>
+  <div class="chead"><span class="n">1</span><h2>Shape your paid session</h2></div>
   <ul class="cues">
     <li>One specific person in one specific situation. Picture your very best client and write it for them.</li>
     <li>Price it at $97 or more, cap it at what you can genuinely do each week, and have one 90-day offer after it. Not four.</li>
@@ -315,13 +321,14 @@ ul.ck input:checked+label b{color:var(--muted);text-decoration:line-through;text
         <li><input type="checkbox" class="ck" id="c1-1"><label for="c1-1"><b>Write my offer sentence</b></label></li>
         <li><input type="checkbox" class="ck" id="c1-2"><label for="c1-2"><b>Decide format, price, capacity and the next step</b></label></li>
       </ul>
+      <aside class="res" aria-label="Where this lives in Spiritual Business Skool"><p class="rk">In Spiritual Business Skool</p><div class="rl"><a href="https://aefieldi.github.io/auditchecklist/" target="_blank" rel="noopener">Audit Method Roadmap <small>all 10 steps</small></a><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=098c9a3121a74287902355112a5d1567" target="_blank" rel="noopener">Your Audit Offer + Booking <small>lesson 2</small></a></div><p>The Roadmap is open to every member. The lessons open in the Premium classroom.</p></aside>
     </div>
   </div>
 </section>
 
 <!-- 2 ─────────────────────────────────────────────── -->
 <section class="card" id="c2">
-  <div class="chead"><span class="n">2</span><h2>Set up booking</h2><a class="watch" href="https://youtu.be/bQLFL60CjNA?t=2016" target="_blank" rel="noopener">Watch this part</a></div>
+  <div class="chead"><span class="n">2</span><h2>Set up booking</h2></div>
   <ul class="cues">
     <li>Members book inside your Skool. Everyone else books from the link in your bio. Start with one route.</li>
     <li>Both routes ask the same three questions. Their answers are what you prepare from.</li>
@@ -363,13 +370,14 @@ ul.ck input:checked+label b{color:var(--muted);text-decoration:line-through;text
       <ul class="ck">
         <li><input type="checkbox" class="ck" id="c2-1"><label for="c2-1"><b>Add the three questions plus mine to the booking</b></label></li>
       </ul>
+      <aside class="res" aria-label="Where this lives in Spiritual Business Skool"><p class="rk">In Spiritual Business Skool</p><div class="rl"><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=098c9a3121a74287902355112a5d1567" target="_blank" rel="noopener">Your Audit Offer + Booking <small>booking walkthrough + intake questions</small></a></div></aside>
     </div>
   </div>
 </section>
 
 <!-- 3 ─────────────────────────────────────────────── -->
 <section class="card" id="c3">
-  <div class="chead"><span class="n">3</span><h2>Prepare and run the session</h2><a class="watch" href="https://youtu.be/bQLFL60CjNA?t=3059" target="_blank" rel="noopener">Watch this part</a></div>
+  <div class="chead"><span class="n">3</span><h2>Prepare and run the session</h2></div>
   <ul class="cues">
     <li>Prepare the page from their intake: where they are, where they want to be, the one challenge, three moves. On the call they pick one move and you go deep on that one.</li>
     <li>Around minute 45, recap and ask permission: "Did you want to continue this on your own, or would you like to hear what it would be like for us to work together?" Only then the 90-day offer, one price, said one way.</li>
@@ -421,13 +429,14 @@ ul.ck input:checked+label b{color:var(--muted);text-decoration:line-through;text
         <li><input type="checkbox" class="ck" id="c3-1"><label for="c3-1"><b>Build my audit page template</b><span>Now · goals · challenge · three moves · live notes · next steps.</span></label></li>
         <li><input type="checkbox" class="ck" id="c3-6"><label for="c3-6"><b>Map what my client leaves with</b></label></li>
       </ul>
+      <aside class="res" aria-label="Where this lives in Spiritual Business Skool"><p class="rk">In Spiritual Business Skool</p><div class="rl"><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=70a68b1110cf4f449b208729e1f869bf" target="_blank" rel="noopener">The call + Audit Page <small>audit page builder + the timed call script</small></a><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=7b97d7d21e994c22a629fa25ecfc587c" target="_blank" rel="noopener">Pre-Call Ritual <small>lesson 6</small></a></div></aside>
     </div>
   </div>
 </section>
 
 <!-- 4 ─────────────────────────────────────────────── -->
 <section class="card" id="c4">
-  <div class="chead"><span class="n">4</span><h2>Promote it</h2><a class="watch" href="https://youtu.be/bQLFL60CjNA?t=4423" target="_blank" rel="noopener">Watch this part</a></div>
+  <div class="chead"><span class="n">4</span><h2>Promote it</h2></div>
   <ul class="cues">
     <li>Every day: one post with a CTA and two real conversations. The first line of the caption is the CTA.</li>
     <li>Tell people your real capacity. Nobody has unlimited spots, and that's the whole invitation.</li>
@@ -463,13 +472,14 @@ ul.ck input:checked+label b{color:var(--muted);text-decoration:line-through;text
         <li><input type="checkbox" class="ck" id="c4-9"><label for="c4-9"><b>Post my first invitation</b></label></li>
       </ul>
       <p style="color:var(--muted);font-size:13.5px;margin:12px 0 0">For the full 30-day plan, the creator research and the caption template: <a href="https://aefieldi.github.io/30dayauditpromoplan/" target="_blank" rel="noopener">the 30-day promo guide</a>.</p>
+      <aside class="res" aria-label="Where this lives in Spiritual Business Skool"><p class="rk">In Spiritual Business Skool</p><div class="rl"><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=06a64525fdae4dee8827c3d038bb6f24" target="_blank" rel="noopener">DM Playbook (sales w/o the ick) <small>lesson 5</small></a><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=bc08a767f6674c739b5be8af3782ad40" target="_blank" rel="noopener">Promote your Audit <small>30-Day Audit Promo Plan</small></a><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=4e2cf5a333aa4c5a90f2377983521068" target="_blank" rel="noopener">Sell your Audit with IG highlights <small>Audit Highlight Template</small></a></div><p>Premium members also get the AI DM Assistant: share a screenshot of a conversation and choose from two or three suggested replies. You decide what you send.<!-- TODO: link the AI DM Assistant lesson here once its Skool URL is verified --></p></aside>
     </div>
   </div>
 </section>
 
 <!-- 5 ─────────────────────────────────────────────── -->
 <section class="card" id="c5">
-  <div class="chead"><span class="n">5</span><h2>After the call</h2><a class="watch" href="https://youtu.be/bQLFL60CjNA?t=4867" target="_blank" rel="noopener">Watch this part</a></div>
+  <div class="chead"><span class="n">5</span><h2>After the call</h2></div>
   <ul class="cues">
     <li>Every client gets the recap, yes or no, the same day. Fathom records and transcribes the call for free.</li>
     <li>End the recap with one clear first action, and ask: "Was this helpful? Would you share your feedback?"</li>
@@ -507,13 +517,14 @@ ul.ck input:checked+label b{color:var(--muted);text-decoration:line-through;text
         <li><input type="checkbox" class="ck" id="c5-1"><label for="c5-1"><b>Build my recap template</b><span>Replay, next steps, first action, feedback ask.</span></label></li>
         <li><input type="checkbox" class="ck" id="c5-2"><label for="c5-2"><b>Send the recap the same day</b></label></li>
       </ul>
+      <aside class="res" aria-label="Where this lives in Spiritual Business Skool"><p class="rk">In Spiritual Business Skool</p><div class="rl"><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=b3114e211eb04ae783c834bafd6c96d6" target="_blank" rel="noopener">Your 90-day offer &amp; recap template <small>recap template</small></a><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=3b5e072ef2c04c8cbeef64494ad8f461" target="_blank" rel="noopener">After call flow <small>call review</small></a><a href="https://www.skool.com/amanda/classroom/27fe63a0?md=327160a27ed34e15928883cf8d905dfb" target="_blank" rel="noopener">Their VIP Dashboard <small>90-day client dashboard</small></a></div></aside>
     </div>
   </div>
 </section>
 
-<p class="lh">Mentioned in the masterclass</p>
+<p class="lh">Mentioned in the training</p>
 <div class="links">
-  <a class="am" href="https://docs.google.com/presentation/d/1lf5EtJI-g3yUJvcwFQ6q04rPIQfUaacU/edit?usp=sharing&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener"><span class="k">Slides</span><span class="t">The Audit Method in Action</span></a>
+  <a class="am" href="https://aefieldi.github.io/auditchecklist/" target="_blank" rel="noopener"><span class="k">Roadmap</span><span class="t">The Audit Method Roadmap</span></a>
   <a class="am" href="https://aefieldi.github.io/30dayauditpromoplan/" target="_blank" rel="noopener"><span class="k">Guide</span><span class="t">30-Day Audit Promo Plan</span></a>
   <a class="am" href="https://app.getpoppy.ai/boards/sparkling-sun-QlwvW" target="_blank" rel="noopener"><span class="k">Template</span><span class="t">Poppy board</span></a>
   <a class="am" href="https://www.loom.com/share/79822d9d69f74812b44c8949e351ae75" target="_blank" rel="noopener"><span class="k">Loom</span><span class="t">Behind the Scenes: 30 Day Audit Plan</span></a>
@@ -522,13 +533,13 @@ ul.ck input:checked+label b{color:var(--muted);text-decoration:line-through;text
 <footer class="foot">
   <div class="sig">xoxo Amanda</div>
   <aside class="join" aria-label="Join Spiritual Business Skool">
-  <p class="jk">Keep building with me</p>
-  <h3>Join Spiritual Business Skool with a 7-day free trial</h3>
-  <p>Premium gives you the complete Audit Method: the templates, the trainings and the slides from this session, plus the 24/7 Spiritual Biz Coach AI.</p>
-  <p><b>Join Premium annual by November 30, 2026</b> and choose your bonus: a 1:1 Strategy Audit with me, or a 30-day content plan on the platform of your choice.</p>
-  <div class="jrow"><a class="btn" href="https://www.skool.com/amanda/plans" target="_blank" rel="noopener">Start the free trial</a><small>skool.com/amanda/plans</small></div>
+  <p class="jk">Black Friday · keep building with me</p>
+  <h3>Join Spiritual Business Skool Premium Annual: $597 for 12 months</h3>
+  <p>The complete Audit Method classroom, the DM Playbook and AI DM Assistant, the Premium Skills Treasure Chest, the 24/7 Spiritual Biz Coach AI and the Q&amp;A spot, plus everything in Standard.</p>
+  <p><b>Join by Monday, November 30, 2026 (11:59 p.m. ET)</b> and choose one bonus: a 1:1 Strategy Audit with me, or a personalized 30-day content plan on the platform you choose.</p>
+  <div class="jrow"><a class="btn" href="https://www.skool.com/amanda/plans" target="_blank" rel="noopener">Join Premium Annual</a><small>or $99/month · free 7-day trial</small></div>
 </aside>
-  <p>Questions? Post them in the Oracle Connections community and tag me, or comment under the post where Katya shares the training.</p>
+  <p>Join <a href="https://www.skool.com/amanda" target="_blank" rel="noopener">Spiritual Business Skool</a> to work through the Audit Method, share your draft audit offer for feedback, and bring your questions. Premium members can submit questions for me through the Q&amp;A spot.</p>
   <p style="margin:18px 0 0;color:var(--soft)">Follow me for more</p>
   <div class="social">
     <a class="ig" href="https://www.instagram.com/amandafielding.smith/" target="_blank" rel="noopener" aria-label="Amanda on Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1 0-1.7.2-2.1.4-.5.2-.8.4-1.2.8-.4.4-.6.7-.8 1.2-.2.4-.3 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c0 1.1.2 1.7.4 2.1.2.5.4.8.8 1.2.4.4.7.6 1.2.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1 0 1.7-.2 2.1-.4.5-.2.8-.4 1.2-.8.4-.4.6-.7.8-1.2.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c0-1.1-.2-1.7-.4-2.1-.2-.5-.4-.8-.8-1.2-.4-.4-.7-.6-1.2-.8-.4-.2-1-.3-2.1-.4C15.5 4 15.1 4 12 4zm0 3a5 5 0 110 10 5 5 0 010-10zm0 1.8a3.2 3.2 0 100 6.4 3.2 3.2 0 000-6.4zm5.2-3.1a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/></svg>Instagram</a>
